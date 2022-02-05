@@ -1,0 +1,13 @@
+: 1
+name: ctre
+version: 3.5
+summary: Fast compile-time regular expressions with support for matching/searching/capturing during compile-time or runtime.
+license: Apache-2.0         ; Apache License 2.0
+description-file: README.md
+url: https://compile-time.re
+package-email: wmbat@protonmail.com
+
+depends: * build2 >= 0.14.0
+depends: * bpkg >= 0.14.0
+
+#depends: libhello ^1.0.0

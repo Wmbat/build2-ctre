@@ -1,0 +1,9 @@
+import libs = ctre%lib{ctre}
+
+./: exe{__utf8}: tests/{cxx}{__utf8} $libs
+./: exe{cnttp}: tests/{cxx}{cnttp} $libs
+./: exe{correct-conversion}: tests/{cxx}{correct-conversion} $libs
+./: exe{is_prime}: tests/{cxx}{is_prime} $libs
+./: exe{range}: tests/{cxx}{range} $libs
+./: exe{results}: tests/{cxx}{results} $libs
+./: exe{wide-pattern}: tests/{cxx}{wide-pattern} $libs
