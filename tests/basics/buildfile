@@ -7,3 +7,22 @@ import libs = ctre%lib{ctre}
 ./: exe{range}: tests/{cxx}{range} $libs
 ./: exe{results}: tests/{cxx}{results} $libs
 ./: exe{wide-pattern}: tests/{cxx}{wide-pattern} $libs
+
+# We just need to make sure the following tests compile
+#
+./: obje{_bad_cycle}: tests/cxx{_bad_cycle} $libs
+./: obje{_fixed-string}: tests/cxx{_fixed-string} $libs
+./: obje{_unicode}: tests/cxx{_unicode} $libs
+./: obje{correct-conversion}: tests/cxx{correct-conversion} $libs
+./: obje{gcc8}: tests/cxx{gcc8} $libs
+./: obje{generating}: tests/cxx{generating} $libs
+./: obje{gets}: tests/cxx{gets} $libs
+./: obje{many-of-same-proto}: tests/cxx{many-of-same-proto} $libs
+./: obje{matching}: tests/cxx{matching} $libs
+./: obje{matching2-msvc-greedy}: tests/cxx{matching2-msvc-greedy} $libs
+./: obje{matching2}: tests/cxx{matching2} $libs
+./: obje{matching3}: tests/cxx{matching3} $libs
+./: obje{msvc}: tests/cxx{msvc} $libs
+./: obje{parsing}: tests/cxx{parsing} $libs
+./: obje{trampoline}: tests/cxx{trampoline} $libs
+./: obje{z_matching}: tests/cxx{z_matching} $libs
