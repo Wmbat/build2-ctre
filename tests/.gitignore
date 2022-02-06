@@ -1,6 +1,12 @@
 # Test executables.
 #
-driver
+__utf8
+cnttp
+correct-conversion
+is_prime
+range
+results
+wide-pattern
 
 # Testscript output directories (can be symlinks).
 #
