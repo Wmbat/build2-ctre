@@ -12,5 +12,5 @@ package-email: wmbat@protonmail.com
 depends: * build2 >= 0.14.0
 depends: * bpkg >= 0.14.0
 
-build-exclude: windows* ; The library only partially supports windows, use at your own risk
+build-exclude: windows** ; The library only partially supports windows, use at your own risk
 
