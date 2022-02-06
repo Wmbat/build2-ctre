@@ -30,6 +30,6 @@ lib{ctre}:
 #
 {hxx ixx txx}{*}:
 {
-  install         = include/
+  install         = $install.root
   install.subdirs = true
 }
