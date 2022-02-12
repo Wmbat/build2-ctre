@@ -1,6 +1,6 @@
 import libs = ctre%lib{ctre}
 
-./: exe{__utf8}: tests/{cxx}{__utf8} $libs
+# ./: exe{__utf8}: tests/{cxx}{__utf8} $libs
 ./: exe{cnttp}: tests/{cxx}{cnttp} $libs
 ./: exe{correct-conversion}: tests/{cxx}{correct-conversion} $libs
 ./: exe{is_prime}: tests/{cxx}{is_prime} $libs
@@ -11,7 +11,7 @@ import libs = ctre%lib{ctre}
 # We just need to make sure the following tests compile
 #
 ./: obje{_bad_cycle}: tests/cxx{_bad_cycle} $libs
-./: obje{_fixed-string}: tests/cxx{_fixed-string} $libs
+# ./: obje{_fixed-string}: tests/cxx{_fixed-string} $libs
 ./: obje{_unicode}: tests/cxx{_unicode} $libs
 ./: obje{correct-conversion}: tests/cxx{correct-conversion} $libs
 ./: obje{gcc8}: tests/cxx{gcc8} $libs
