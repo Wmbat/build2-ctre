@@ -1,6 +1,6 @@
 : 1
 name: ctre
-version: 3.5.0+1
+version: 3.6.0
 summary: Fast compile-time regular expressions with support for matching/searching/capturing during compile-time or runtime.
 license: Apache-2.0         ; Apache License 2.0
 description-file: README.md
@@ -8,6 +8,8 @@ url: https://github.com/hanickadot/compile-time-regular-expressions
 doc-url: https://compile-time.re
 
 package-email: wmbat@protonmail.com
+
+requires: c++ >= 17
 
 depends: * build2 >= 0.14.0
 depends: * bpkg >= 0.14.0
